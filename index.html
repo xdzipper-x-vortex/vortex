@@ -53,8 +53,8 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      width: 145px;  /* Increased width */
-      height: 85px;  /* Increased height */
+      width: 145px;  /* Adjusted width */
+      height: 85px;  /* Adjusted height */
       display: inline-block;
       background-color: #00338d;  /* Match page background color */
       background-size: cover;
@@ -91,6 +91,7 @@
 
   <div class="button-container" id="buttonContainer">
     <button id="twosidedcannon" class="button" style="background-image: url('https://i.ibb.co/SXyfyYQ/Twosidedlol.png');"></button>
+    <button id="jumpycube" class="button" style="background-image: url('https://i.ibb.co/another-image.png');"></button>
   </div>
 
   <script>
@@ -101,10 +102,12 @@
     document.getElementById('twosidedcannon').addEventListener('click', function () {
       openLink("twosidedcannon");
     });
+
+    document.getElementById('jumpycube').addEventListener('click', function () {
+      openLink("jumpycube");
+    });
   </script>
 
 </body>
 
 </html>
-
-
